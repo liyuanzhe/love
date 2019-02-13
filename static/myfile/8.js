@@ -69,7 +69,7 @@ function timeElapse(c){
     if(b<10){b="0"+b}f=f%3600;
     var d=Math.floor(f/60);
     if(d<10){d="0"+d}f=f%60;
-    if(f<10){f="0"+f}var a='<span class="digit">'+g+'</span> 天 <span class="digit">'+b+'</span> 小时 <span class="digit">'+d+'</span> 分钟 <span class="digit">'+f+"</span> 秒";
+    if(f<10){f="0"+f}var a='<span class="digit">'+g+'</span> 天 <span class="digit">'+b+'</span> 小时 <span class="digit">'+d+'</span> 分钟 <span class="digit">'+f+"</span> 秒啦";
     $("#elapseClock").html(a)}function showMessages(){$("#messages").fadeIn(5000,function(){showLoveU()})
 }
 function adjustWordsPosition(){$("#words").css("position","absolute");$("#words").css("top",$("#garden").position().top+195);$("#words").css("left",$("#garden").position().left+70)}function adjustCodePosition(){$("#code").css("margin-top",($("#garden").height()-$("#code").height())/2)}function showLoveU(){$("#loveu").fadeIn(3000)};
