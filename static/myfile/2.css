@@ -48,7 +48,7 @@ header{}
 #menu {}
 #menu > li { position:absolute;}
 #menu > li > img{ position:relative; z-index:6; top:15px; left:15px;}
-#menu > li > span{ position: absolute; width:145px; top:82px; color:#fff; text-align:center;  left:15px; text-shadow:1px 1px rgba(0,0,0,.2); z-index:9}
+#menu > li > span{ position: absolute; width:145px; top:82px; color:#fff; text-align:center;  left:15px; text-shadow:1px 1px rgba(0,0,0,.2); z-index:9; font-size:20px}
 
 #nav1{ top:105px; left:304px;}
 #nav2{ top:239px; left:230px;}
